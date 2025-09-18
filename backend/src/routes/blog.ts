@@ -116,8 +116,6 @@ bookRouter.get('/bulk',async (c)=>{
                 }
             }
         });
-        console.log(blogs.length);
-        console.dir(blogs, { depth: null });
         return c.json(blogs)
     }catch(e){
         console.log(e);

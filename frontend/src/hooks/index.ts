@@ -53,7 +53,7 @@ export const useBlogs = () =>{
     const [blogs,setBlogs] = useState<Blog[]>([]);
 
     useEffect(()=>{
-        console.log("axios Entered");
+        // console.log("axios Earntered");
         axios.get(`${BACKEND_URL}/api/v1/blog/bulk`,{
             headers:{
                 Authorization:localStorage.getItem("token")
@@ -64,7 +64,7 @@ export const useBlogs = () =>{
                 setLoading(false);
         })
     },[]);
-    console.log(blogs);
+    // console.log(blogs);
 
     return {
         loading,

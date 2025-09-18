@@ -31,21 +31,6 @@ export function Blogs (){
                 title={blog.title}
                 content={blog.content}
                 publishedDate={"12 aug 2025"}/>)}
-                {/* <BlogCard 
-                authorName="ansh"
-                title="My first Blog"
-                content="Hello all of you!"
-                publishedDate="12 aug 2025"/>
-                <BlogCard 
-                authorName="ansh"
-                title="My first Blog"
-                content="Hello all of you!jfi aosnojgnaoijfnodshnfirehguhre uihaduisbghudihasuif uih uihdfuishaiuahdufuegusdhfuhduhaudhsu hfdihfuerhguahguhdsjhvf hfuihdugbdugfahughfq98e9frpgfdsgbudgsfhuiudsfuadh"
-                publishedDate="12 aug 2025"/>
-                <BlogCard 
-                authorName="ansh"
-                title="My first Blog"
-                content="Hello all of you!jfi aosnojgnaoijfnodshnfirehguhre uihaduisbghudihasuif uih uihdfuishaiuahdufuegusdhfuhduhaudhsu hfdihfuerhguahguhdsjhvf hfuihdugbdugfahughfq98e9frpgfdsgbudgsfhuiudsfuadh Hello all of you!jfi aosnojgnaoijfnodshnfirehguhre uihaduisbghudihasuif uih uihdfuishaiuahdufuegusdhfuhduhaudhsu hfdihfuerhguahguhdsjhvf hfuihdugbdugfahughfq98e9frpgfdsgbudgsfhuiudsfuadh"
-                publishedDate="12 aug 2025"/> */}
             </div>
         </div>
     </div>
